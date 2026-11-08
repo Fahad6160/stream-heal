@@ -1,0 +1,75 @@
+{
+  "name": "stream-heal",
+  "version": "1.0.0",
+  "description": "Zero-dependency, fault-tolerant streaming JSON parser and auto-healer for LLM outputs and generative UI",
+  "keywords": [
+    "ai",
+    "llm",
+    "stream",
+    "json",
+    "partial-json",
+    "generative-ui",
+    "openai",
+    "anthropic",
+    "react",
+    "streaming-json",
+    "parser"
+  ],
+  "author": "Fahad Shaikh <fahadshaikh6160@gmail.com> (https://github.com/Fahad6160)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/stream-heal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/stream-heal/issues"
+  },
+  "homepage": "https://github.com/your-username/stream-heal#readme",
+  "license": "MIT",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.mjs",
+      "require": "./dist/react.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "bench": "tsx benchmarks/bench.ts",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "react": "^18.3.0",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
+
