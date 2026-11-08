@@ -8,6 +8,10 @@
 [![dependencies](https://img.shields.io/badge/dependencies-0-success.svg?style=flat-square)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6.svg?style=flat-square)](tsconfig.json)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Fahad6160/stream-heal/main/demo/demo.gif" alt="stream-heal real-time demo vs standard JSON.parse" width="100%" />
+</p>
+
 ---
 
 ### 💡 The 5-Second Mental Model
