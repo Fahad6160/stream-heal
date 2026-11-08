@@ -30,3 +30,9 @@ Thumbs.db
 # Temporary / Scratch
 tmp/
 temp/
+test-import.mjs
+
+# Internal Portfolio & Launch Kits
+PORTFOLIO_LAUNCH_KIT.md
+demo/RECORDING_GUIDE.md
+

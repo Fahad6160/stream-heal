@@ -18,12 +18,12 @@
   "author": "Fahad Shaikh <fahadshaikh6160@gmail.com> (https://github.com/Fahad6160)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/stream-heal.git"
+    "url": "https://github.com/Fahad6160/stream-heal.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/stream-heal/issues"
+    "url": "https://github.com/Fahad6160/stream-heal/issues"
   },
-  "homepage": "https://github.com/your-username/stream-heal#readme",
+  "homepage": "https://github.com/Fahad6160/stream-heal#readme",
   "license": "MIT",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",

@@ -228,7 +228,7 @@ Contributions, issues, and feature requests are welcome!
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/stream-heal.git
+git clone https://github.com/Fahad6160/stream-heal.git
 
 # Install dependencies
 npm install
@@ -244,5 +244,5 @@ npm run bench
 
 ## 📄 License
 
-MIT © 2026. Built for the modern AI web developer.
+MIT © 2026 [Fahad Shaikh](https://github.com/Fahad6160). Built for the modern AI web developer.
 
